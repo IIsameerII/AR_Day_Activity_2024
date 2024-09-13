@@ -20,7 +20,7 @@ def get_agent_class_from_str(class_str):
         raise ImportError(class_str)
 
 
-RANDOM_SEED = 1
+RANDOM_SEED = 7092196775
 
 agent_class_string_list = []
 with open('player_agents_list.txt', 'r') as f:
